@@ -27,7 +27,7 @@ const MyWeb3 ={
                 window.web3.eth.net.getId().then(function (result) {
                     let currentChainId = result
                     //设置最大监听器数量，否则出现warning
-                    window.web3.currentProvider.setMaxListeners(300)
+                    window.web3.currentProvider.setMaxListeners(100)
                     //从json获取到当前网络id下的合约地址
                     let currentContractAddress = ContractAddress[currentChainId]
                     if(currentContractAddress !== undefined){
