@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-crypto-zombie-master/static/css/main.eb42b9bf.chunk.css",
-    "main.js": "/my-crypto-zombie-master/static/js/main.5b72de51.chunk.js",
-    "main.js.map": "/my-crypto-zombie-master/static/js/main.5b72de51.chunk.js.map",
+    "main.css": "/my-crypto-zombie-master/static/css/main.41a1b3b9.chunk.css",
+    "main.js": "/my-crypto-zombie-master/static/js/main.1be8d8d2.chunk.js",
+    "main.js.map": "/my-crypto-zombie-master/static/js/main.1be8d8d2.chunk.js.map",
     "runtime-main.js": "/my-crypto-zombie-master/static/js/runtime-main.8ea3bef2.js",
     "runtime-main.js.map": "/my-crypto-zombie-master/static/js/runtime-main.8ea3bef2.js.map",
     "static/js/2.503d6d74.chunk.js": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js",
     "static/js/2.503d6d74.chunk.js.map": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js.map",
     "index.html": "/my-crypto-zombie-master/index.html",
-    "precache-manifest.39c7fe351befe8008668e714b92a3b75.js": "/my-crypto-zombie-master/precache-manifest.39c7fe351befe8008668e714b92a3b75.js",
+    "precache-manifest.1bb302b4fdf9f8187e277e0796c5aaa1.js": "/my-crypto-zombie-master/precache-manifest.1bb302b4fdf9f8187e277e0796c5aaa1.js",
     "service-worker.js": "/my-crypto-zombie-master/service-worker.js",
-    "static/css/main.eb42b9bf.chunk.css.map": "/my-crypto-zombie-master/static/css/main.eb42b9bf.chunk.css.map",
+    "static/css/main.41a1b3b9.chunk.css.map": "/my-crypto-zombie-master/static/css/main.41a1b3b9.chunk.css.map",
     "static/js/2.503d6d74.chunk.js.LICENSE": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js.LICENSE",
-    "static/media/App.css": "/my-crypto-zombie-master/static/media/walls.b102b800.jpg",
+    "static/media/App.css": "/my-crypto-zombie-master/static/media/walls1.208093d6.png",
     "static/media/ZombiePreview.css": "/my-crypto-zombie-master/static/media/zombierun.08087132.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ea3bef2.js",
     "static/js/2.503d6d74.chunk.js",
-    "static/css/main.eb42b9bf.chunk.css",
-    "static/js/main.5b72de51.chunk.js"
+    "static/css/main.41a1b3b9.chunk.css",
+    "static/js/main.1be8d8d2.chunk.js"
   ]
 }
