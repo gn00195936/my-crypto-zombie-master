@@ -23,7 +23,7 @@ class ZombieCard extends Component {
                         <div className="card-header bg-dark hide-overflow-text">
                             <strong>{this.state.name}</strong>
                         </div>
-                        <small className="hide-overflow-text">CryptoZombie{this.state.level}级</small>
+                        <small className="hide-overflow-text">英雄LV{this.state.level}</small>
                     </div>
                 </div>
             </div>            
