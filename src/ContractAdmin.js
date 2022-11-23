@@ -167,15 +167,15 @@ class ContractAdmin extends Component {
             return ( 
                 <div className='contract-admin'>
                     <dl>
-                        <dt>合约地址</dt>
+                        <dt>合約地址</dt>
                         <dd className='lowcase'>{this.state.contractAddress}</dd>
                         <dt>管理员</dt>
                         <dd className='lowcase'>{this.state.contractOwner}</dd>
-                        <dt>合约名称</dt>
+                        <dt>合約名稱</dt>
                         <dd>{this.state.ContractName}</dd>
-                        <dt>合约标识</dt>
+                        <dt>合約標示</dt>
                         <dd>{this.state.ContractSymbol}</dd>
-                        <dt>合约余额</dt>
+                        <dt>合約餘額</dt>
                         <dd>
                             {this.state.ContractBalance}
                             <button className="pay-btn pay-btn-last" onClick={this.withdraw}>
@@ -184,7 +184,7 @@ class ContractAdmin extends Component {
                                 </span>
                             </button>
                         </dd>
-                        <dt>对战胜率</dt>
+                        <dt>對戰勝率</dt>
                         <dd>
                             <input 
                                 type="text" 
@@ -194,11 +194,11 @@ class ContractAdmin extends Component {
                             </input>
                             <button className="pay-btn pay-btn-last" onClick={this.setAttackVictoryProbability}>
                                 <span>
-                                    设置
+                                    設置
                                 </span>
                             </button>
                         </dd>
-                        <dt>升级费</dt>
+                        <dt>升級費用</dt>
                         <dd>
                             <input 
                                 type="text" 
@@ -208,11 +208,11 @@ class ContractAdmin extends Component {
                             </input>
                             <button className="pay-btn pay-btn-last" onClick={this.setLevelUpFee}>
                                 <span>
-                                    设置
+                                    設置
                                 </span>
                             </button>
                         </dd>
-                        <dt>最低售价</dt>
+                        <dt>最低售價</dt>
                         <dd>
                             <input 
                                 type="text" 
@@ -222,11 +222,11 @@ class ContractAdmin extends Component {
                             </input>
                             <button className="pay-btn pay-btn-last" onClick={this.setMinPrice}>
                                 <span>
-                                    设置
+                                    設置
                                 </span>
                             </button>
                         </dd>
-                        <dt>税金</dt>
+                        <dt>稅金</dt>
                         <dd>
                             <input 
                                 type="text" 
@@ -236,11 +236,11 @@ class ContractAdmin extends Component {
                             </input>
                             <button className="pay-btn pay-btn-last" onClick={this.setTax}>
                                 <span>
-                                    设置
+                                    設置
                                 </span>
                             </button>
                         </dd>
-                        <dt>僵尸售价</dt>
+                        <dt>英雄售價</dt>
                         <dd>
                             <input 
                                 type="text" 
@@ -250,7 +250,7 @@ class ContractAdmin extends Component {
                             </input>
                             <button className="pay-btn pay-btn-last" onClick={this.setZombiePrice}>
                                 <span>
-                                    设置
+                                    設置
                                 </span>
                             </button>
                         </dd>

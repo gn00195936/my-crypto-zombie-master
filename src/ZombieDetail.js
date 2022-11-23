@@ -168,7 +168,7 @@ class Zombiedetail extends Component {
                         return(
                         <button className="attack-btn">
                             <span>
-                                <Link to={`?ZombieAttack&id=`+that.state.id} >发起挑战</Link>
+                                <Link to={`?ZombieAttack&id=`+that.state.id} >發起挑戰</Link>
                             </span>
                         </button>)
                         }
@@ -178,12 +178,12 @@ class Zombiedetail extends Component {
                             return(
                                 <div>
                                     <div className='zombieInput'>
-                                        售价：{that.state.shopInfo.price} ether
+                                        售價：{that.state.shopInfo.price} ether
                                     </div>
                                     <div>
                                         <button className="pay-btn pay-btn-last" onClick={that.buyShopZombie}>
                                             <span>
-                                                买下它
+                                                購買
                                             </span>
                                         </button>
                                     </div>
@@ -210,7 +210,7 @@ class Zombiedetail extends Component {
                                     <div>
                                         <button className="pay-btn pay-btn-last" onClick={that.changeName}>
                                             <span>
-                                                改个名字
+                                                改個名字
                                             </span>
                                         </button>
                                     </div>
@@ -224,7 +224,7 @@ class Zombiedetail extends Component {
                                 <div>
                                     <button className="pay-btn" onClick={that.feed}>
                                         <span>
-                                            喂食一次
+                                            餵食食物
                                         </span>
                                     </button>
                                 </div>)
@@ -258,7 +258,7 @@ class Zombiedetail extends Component {
                                     <div>
                                         <button className="pay-btn pay-btn-last" onClick={that.saleZombie}>
                                             <span>
-                                                卖了它
+                                                賣掉英雄
                                             </span>
                                         </button>
                                     </div>
@@ -273,7 +273,7 @@ class Zombiedetail extends Component {
     }
 
     render() { 
-        var readyTime = '已冷却'                                
+        var readyTime = '已冷卻'                                
         if(this.state.zombie.readyTime !== undefined && moment().format('X')<this.state.zombie.readyTime){
             readyTime = moment(parseInt(this.state.zombie.readyTime)*1000).format('YYYY-MM-DD')
         }
@@ -302,15 +302,15 @@ class Zombiedetail extends Component {
                             <dt>{this.state.zombie.name}</dt>
                             <dt>主人</dt>
                             <dd>{this.state.owner}</dd>
-                            <dt>等级</dt>
+                            <dt>等級</dt>
                             <dd>{this.state.zombie.level}</dd>
-                            <dt>胜利次数</dt>
+                            <dt>獲勝次数</dt>
                             <dd>{this.state.zombie.winCount}</dd>
-                            <dt>失败次数</dt>
+                            <dt>失敗次数</dt>
                             <dd>{this.state.zombie.lossCount}</dd>
-                            <dt>冷却时间</dt>
+                            <dt>冷去時間</dt>
                             <dd>{readyTime}</dd>
-                            <dt>喂食次数</dt>
+                            <dt>餵食次數</dt>
                             <dd>{this.state.zombieFeedTimes}</dd>
                             <dt></dt>
                             <dd>

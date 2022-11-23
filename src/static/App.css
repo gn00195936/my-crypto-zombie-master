@@ -39,6 +39,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     max-width: 1260px;
     overflow: auto;
     display: -webkit-box;
+    
 }
 .container {
     margin-right: auto;
@@ -96,9 +97,9 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     -webkit-appearance: button;
 }
 #root{
-  background: url(./walls.jpg);
+  background: url(./walls1.png);
   background-size: cover;
-  background-position: 50%;
+  background-position: 0%;
 }
 .zombie-container {
     padding-top: 0px;

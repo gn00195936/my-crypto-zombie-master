@@ -22,7 +22,7 @@ class NewZombie extends Component {
             AttackBtn:()=>{
                 return( <button className="attack-btn">
                             <span role="img" aria-label="zombie">
-                                选一只🧟‍♂️干它！
+                                選擇英雄攻擊
                             </span>
                         </button>
                 )
@@ -81,7 +81,7 @@ class NewZombie extends Component {
             AttackBtn:()=>{
                 return( <button className="attack-btn" onClick={this.zombieAttack}>
                             <span role="img">
-                                用{this.state.myZombies[index].name}干它！
+                                用{this.state.myZombies[index].name}打他！
                             </span>
                         </button>
                 )
@@ -161,7 +161,7 @@ class NewZombie extends Component {
             );
         }else{
             return(
-                <div>没有能干它的僵尸</div>
+                <div>沒有可攻擊的英雄</div>
             )
         }
     }

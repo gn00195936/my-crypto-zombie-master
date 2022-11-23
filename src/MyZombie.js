@@ -93,7 +93,7 @@ class MyZombie extends Component {
                             <input 
                                 type="text" 
                                 id='zombieName' 
-                                placeholder='给僵尸起个好名字' 
+                                placeholder='給英雄ID' 
                                 ref={(input)=>{this.input=input}} 
                                 value={this.state.zombieName}
                                 onChange={this.inputChange}>
@@ -102,7 +102,7 @@ class MyZombie extends Component {
                         <div>
                             <button className="attack-btn" onClick={this.buyZombie}>
                                 <span>
-                                    购买僵尸    
+                                    購買英雄
                                 </span>
                             </button>
                         </div>
@@ -117,7 +117,7 @@ class MyZombie extends Component {
                         <input 
                             type="text" 
                             id='zombieName' 
-                            placeholder='给僵尸起个好名字' 
+                            placeholder='給英雄ID' 
                             ref={(input)=>{this.input=input}} 
                             value={this.state.zombieName}
                             onChange={this.inputChange}>
@@ -126,12 +126,12 @@ class MyZombie extends Component {
                     <div>
                         <button className="attack-btn" onClick={this.createZombie}>
                             <span>
-                                免费领养僵尸    
+                                免費角色    
                             </span>
                         </button>
                     </div>
                 </div>
-                <div className='transactionHash' display={this.state.txHashDisp}>{this.state.transactionHash}<br></br>等待确认中...</div>
+                <div className='transactionHash' display={this.state.txHashDisp}>{this.state.transactionHash}<br></br>等待確認中...</div>
             </div>)
         }
     }

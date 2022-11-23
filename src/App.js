@@ -44,7 +44,7 @@ class App extends Component {
                                 <ul>
                                     <li>
                                         <button className="start-course-btn">
-                                            <span><Link to="?ZombieArmy">女子軍團</Link></span>
+                                            <span><Link to="?ZombieArmy">英雄挑戰</Link></span>
                                         </button>
                                     </li>
                                     <li>
@@ -59,7 +59,7 @@ class App extends Component {
                                     </li>
                                     <li>
                                         <button className="start-course-btn">
-                                            <span><Link to="?ZombieSimulator">模擬基因</Link></span>
+                                            <span><Link to="?ZombieSimulator">模擬英雄</Link></span>
                                         </button>
                                     </li>
                                     <AdminArea></AdminArea>
