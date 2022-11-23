@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-crypto-zombie-master/static/css/main.41a1b3b9.chunk.css",
-    "main.js": "/my-crypto-zombie-master/static/js/main.4851d0c3.chunk.js",
-    "main.js.map": "/my-crypto-zombie-master/static/js/main.4851d0c3.chunk.js.map",
+    "main.css": "/my-crypto-zombie-master/static/css/main.4732eb1a.chunk.css",
+    "main.js": "/my-crypto-zombie-master/static/js/main.79c09713.chunk.js",
+    "main.js.map": "/my-crypto-zombie-master/static/js/main.79c09713.chunk.js.map",
     "runtime-main.js": "/my-crypto-zombie-master/static/js/runtime-main.8ea3bef2.js",
     "runtime-main.js.map": "/my-crypto-zombie-master/static/js/runtime-main.8ea3bef2.js.map",
     "static/js/2.503d6d74.chunk.js": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js",
     "static/js/2.503d6d74.chunk.js.map": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js.map",
     "index.html": "/my-crypto-zombie-master/index.html",
-    "precache-manifest.58db144adeffa04e43cf90e4d1dfd7e2.js": "/my-crypto-zombie-master/precache-manifest.58db144adeffa04e43cf90e4d1dfd7e2.js",
+    "precache-manifest.60073990388ae8bf1dd65826c76bea20.js": "/my-crypto-zombie-master/precache-manifest.60073990388ae8bf1dd65826c76bea20.js",
     "service-worker.js": "/my-crypto-zombie-master/service-worker.js",
-    "static/css/main.41a1b3b9.chunk.css.map": "/my-crypto-zombie-master/static/css/main.41a1b3b9.chunk.css.map",
+    "static/css/main.4732eb1a.chunk.css.map": "/my-crypto-zombie-master/static/css/main.4732eb1a.chunk.css.map",
     "static/js/2.503d6d74.chunk.js.LICENSE": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js.LICENSE",
     "static/media/App.css": "/my-crypto-zombie-master/static/media/walls1.208093d6.png",
-    "static/media/ZombiePreview.css": "/my-crypto-zombie-master/static/media/zombierun.08087132.png"
+    "static/media/ZombiePreview.css": "/my-crypto-zombie-master/static/media/walls1.8e665e8d.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.8ea3bef2.js",
     "static/js/2.503d6d74.chunk.js",
-    "static/css/main.41a1b3b9.chunk.css",
-    "static/js/main.4851d0c3.chunk.js"
+    "static/css/main.4732eb1a.chunk.css",
+    "static/js/main.79c09713.chunk.js"
   ]
 }
