@@ -22,7 +22,7 @@ class NewZombie extends Component {
             AttackBtn:()=>{
                 return( <button className="attack-btn">
                             <span role="img" aria-label="zombie">
-                                選擇英雄攻擊
+                                選擇一隻英雄攻擊！
                             </span>
                         </button>
                 )
@@ -49,7 +49,6 @@ class NewZombie extends Component {
         MyWeb3.zombies(zombieId).then(function (result) {
             that.setState({targetZombie:result})
         })
-
     }
     getMyZombies(){
         let that = this
@@ -82,7 +81,7 @@ class NewZombie extends Component {
             AttackBtn:()=>{
                 return( <button className="attack-btn" onClick={this.zombieAttack}>
                             <span role="img">
-                                用{this.state.myZombies[index].name}打他！
+                                用{this.state.myZombies[index].name}攻擊！
                             </span>
                         </button>
                 )
@@ -130,7 +129,7 @@ class NewZombie extends Component {
                     <div><h2>{this.state.transactionHash}</h2></div>
                 </div>
                     <div  className="row zombie-parts-bin-component" >
-                        <div  className="game-card home-card5 target-card" >
+                        <div  className="game-card home-card target-card" >
                             <div className="zombie-char">
                                 <ZombiePreview zombie={this.state.targetZombie}></ZombiePreview>
                             </div>
@@ -141,15 +140,14 @@ class NewZombie extends Component {
                                     var name = item.name
                                     var level = item.level
                                     return(
-                                        <div className="game-card selectable" key={index} active={this.state.active[index] || 0} onClick={() => this.selectZombie(index)} >
+                                        <div className="game-card home-card5 selectable" key={index} active={this.state.active[index] || 0} onClick={() => this.selectZombie(index)} >
                                             <div className="zombie-char">
-                                                
                                             <ZombiePreview zombie={item}></ZombiePreview>
                                                 <div className="zombie-card card bg-shaded">
                                                     <div className="card-header bg-dark hide-overflow-text">
                                                         <strong>{name}</strong>
                                                     </div>
-                                                    <small className="hide-overflow-text">CryptoZombie{level}级</small>
+                                                    <small className="hide-overflow-text">英雄LV{level}</small>
                                                 </div>
                                             </div>
                                         </div>  
@@ -163,7 +161,7 @@ class NewZombie extends Component {
             );
         }else{
             return(
-                <div>沒有可攻擊的英雄</div>
+                <div>沒有能攻擊的英雄</div>
             )
         }
     }

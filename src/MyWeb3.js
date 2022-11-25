@@ -64,7 +64,7 @@ const MyWeb3 ={
             }
         })
     },
-    //获得单个僵尸数据
+    //获得单个僵尸数据2
     zombies2(zombieId){
         return new Promise((resolve, reject) => {
             if(zombieId>=0){

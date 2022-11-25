@@ -42,25 +42,25 @@
   margin-top: 31vh
 }
 .zombie-parts .eye {
-  width: 35vh;
+  width: 50vh;
   position: absolute;
-  left: 8vh;
-  top: 0vh;
+  left: 0vh;
+  top: -10vh;
 }
 .zombie-parts .head {
-  width: 35vh;
+  width: 50vh;
   position: absolute;
-  left: 8vh;
-  top: 0vh;
+  left: 0vh;
+  top: -10vh;
 }
 
 
 
 .zombie-parts .shirt {
-  width: 35vh;
+  width: 50vh;
   position: absolute;
-  left: 8vh;
-  top: 0vh;
+  left: 0vh;
+  top: -10vh;
 }
 
 
@@ -92,6 +92,11 @@
   transform: scale(0.4);
 }
 .home-card4 .zombie-char {
+  left: -6vh;
+  top: -27vh;
+  transform: scale(0.4);
+}
+.home-card5 .zombie-char {
   left: -6vh;
   top: -27vh;
   transform: scale(0.4);

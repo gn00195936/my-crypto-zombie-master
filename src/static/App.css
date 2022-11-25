@@ -336,7 +336,7 @@ button a,button a:hover{
 }
 .battelArea .targetZombie,.battelArea .myZombie{
     width: 33%;
-    margin-top: -200px;
+    margin-top: -100px;
     transform: scale(0.5);
 }
 .battelArea .myZombie{
