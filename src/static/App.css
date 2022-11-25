@@ -158,6 +158,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     background-image: url(./homecard@6x.png);
     background-repeat: no-repeat;
 }
+.home-card5{
+    
+    background-image: url(./homecard@7x.png);
+    background-repeat: no-repeat;
+}
 .game-card {
     height: 42vh;
     width: 29vh;

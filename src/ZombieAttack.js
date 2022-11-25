@@ -130,7 +130,7 @@ class NewZombie extends Component {
                     <div><h2>{this.state.transactionHash}</h2></div>
                 </div>
                     <div  className="row zombie-parts-bin-component" >
-                        <div  className="game-card home-card target-card" >
+                        <div  className="game-card home-card5 target-card" >
                             <div className="zombie-char">
                                 <ZombiePreview zombie={this.state.targetZombie}></ZombiePreview>
                             </div>
