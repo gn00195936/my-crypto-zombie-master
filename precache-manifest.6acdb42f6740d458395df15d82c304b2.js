@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd58d4b8dfae630ff591f480bcbd28af",
+    "revision": "f581fa0782889525d487ef8aed58826e",
     "url": "/my-crypto-zombie-master/index.html"
   },
   {
-    "revision": "1d278005ae05b27cb162",
-    "url": "/my-crypto-zombie-master/static/css/main.4732eb1a.chunk.css"
+    "revision": "a5cef6b8f443802be2f4",
+    "url": "/my-crypto-zombie-master/static/css/main.25e3eaa0.chunk.css"
   },
   {
     "revision": "11071c9ebec0f96942aa",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-crypto-zombie-master/static/js/2.503d6d74.chunk.js.LICENSE"
   },
   {
-    "revision": "1d278005ae05b27cb162",
-    "url": "/my-crypto-zombie-master/static/js/main.79c09713.chunk.js"
+    "revision": "a5cef6b8f443802be2f4",
+    "url": "/my-crypto-zombie-master/static/js/main.591307b3.chunk.js"
   },
   {
     "revision": "c7c2da0732bca2695231",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-crypto-zombie-master/static/media/Btn_Register_Over.d3684ace.png"
   },
   {
-    "revision": "64a6f16c4f5ef7e189e75dfc0a52a25f",
-    "url": "/my-crypto-zombie-master/static/media/homecard@2x.64a6f16c.png"
+    "revision": "670b5a1fc853b15f166429f28fce8cfe",
+    "url": "/my-crypto-zombie-master/static/media/homecard@3x.670b5a1f.png"
+  },
+  {
+    "revision": "1224124fa1129c66013c2588e8be0bff",
+    "url": "/my-crypto-zombie-master/static/media/homecard@4x.1224124f.png"
+  },
+  {
+    "revision": "a03acd21d4fd35dae86e6ec01a59ab09",
+    "url": "/my-crypto-zombie-master/static/media/homecard@5x.a03acd21.png"
+  },
+  {
+    "revision": "f2a5e4045564a3b34d4656595c7d141b",
+    "url": "/my-crypto-zombie-master/static/media/homecard@6x.f2a5e404.png"
   },
   {
     "revision": "4b3e99d9ad2da3b944dde9519bcf93c0",
@@ -44,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-crypto-zombie-master/static/media/start_btn.41236031.png"
   },
   {
-    "revision": "2a4a2235f6ed0e838b49a3f1bec4aae1",
-    "url": "/my-crypto-zombie-master/static/media/tester-bg@2x.2a4a2235.png"
+    "revision": "9b22ae563d81da1cf316765e1d3ace36",
+    "url": "/my-crypto-zombie-master/static/media/tester-bg@2x.9b22ae56.png"
   },
   {
     "revision": "208093d694adee8ceb3d04425d4970dd",
