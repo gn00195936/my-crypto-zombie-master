@@ -9,15 +9,15 @@ class ZombieToggler extends Component  {
                 {
                     "name":"head",
                     "title":"法師角色",
-                    "max":3
+                    "max":7
                 },{
                     "name":"eye",
                     "title":"戰士角色",
-                    "max":5
+                    "max":8
                 },{
                     "name":"shirt",
                     "title":"弓手角色",
-                    "max":3
+                    "max":7
                 },{
                     "name":"skin",
                     "title":"皮膚顏色",

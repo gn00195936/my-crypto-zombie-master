@@ -64,6 +64,16 @@ const MyWeb3 ={
             }
         })
     },
+    //获得单个僵尸数据
+    zombies2(zombieId){
+        return new Promise((resolve, reject) => {
+            if(zombieId>=0){
+                window.MyContract.methods.zombies2(zombieId).call().then(function(zombies2) {
+                    resolve(zombies2)
+                })
+            }
+        })
+    },
     //获得僵尸拥有者地址
     zombieToOwner(zombieId){
         return new Promise((resolve, reject) => {

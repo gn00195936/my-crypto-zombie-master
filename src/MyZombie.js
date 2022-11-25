@@ -12,7 +12,7 @@ import {
 class MyZombie extends Component {
     constructor(props) {
         super(props);
-        this.state = {zombieCount:"",zombies:[],zombieName:'',transactionHash:'',buyAreaDisp:1,createAreaDisp:1,txHashDisp:0}
+        this.state = {zombieCount:"",zombies:[],zombies2:[],zombieName:'',transactionHash:'',buyAreaDisp:1,createAreaDisp:1,txHashDisp:0}
         this.createZombie=this.createZombie.bind(this)
         this.buyZombie=this.buyZombie.bind(this)
         this.inputChange=this.inputChange.bind(this)

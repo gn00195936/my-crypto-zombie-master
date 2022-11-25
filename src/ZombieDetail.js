@@ -291,7 +291,7 @@ class Zombiedetail extends Component {
                             <div className="zombie-loading zombie-parts" style={{display:"none"}}></div>
                                 <ZombiePreview zombie={this.state.zombie}></ZombiePreview>
                             <div className="hide">
-                                <div className="card-header bg-dark hide-overflow-text">
+                                <div className="card-header bg-dark hide-overflow-text">t
                                     <strong ></strong></div>
                                 <small className="hide-overflow-text">CryptoZombie第一级</small>
                             </div>
@@ -304,14 +304,23 @@ class Zombiedetail extends Component {
                             <dd>{this.state.owner}</dd>
                             <dt>等級</dt>
                             <dd>{this.state.zombie.level}</dd>
+                            <dt>血量</dt>
+                            <dd>{this.state.zombie.hp}</dd>
+                            <dt>力量</dt>
+                            <dd>{this.state.zombie.str}</dd>
+                            <dt>防禦</dt>
+                            <dd>{this.state.zombie.def}</dd>
+                            <dt>敏捷</dt>
+                            <dd>{this.state.zombie.agi}</dd>
                             <dt>獲勝次数</dt>
                             <dd>{this.state.zombie.winCount}</dd>
                             <dt>失敗次数</dt>
                             <dd>{this.state.zombie.lossCount}</dd>
-                            <dt>冷去時間</dt>
+                            <dt>冷卻時間</dt>
                             <dd>{readyTime}</dd>
                             <dt>餵食次數</dt>
                             <dd>{this.state.zombieFeedTimes}</dd>
+                            
                             <dt></dt>
                             <dd>
                                 <AttackBtn></AttackBtn>

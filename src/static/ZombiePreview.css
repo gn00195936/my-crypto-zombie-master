@@ -81,7 +81,21 @@
   transform: scale(0.4);
 }
 
-
+.home-card2 .zombie-char {
+  left: -6vh;
+  top: -27vh;
+  transform: scale(0.4);
+}
+.home-card3 .zombie-char {
+  left: -6vh;
+  top: -27vh;
+  transform: scale(0.4);
+}
+.home-card4 .zombie-char {
+  left: -6vh;
+  top: -27vh;
+  transform: scale(0.4);
+}
 .card[data-v-ab64d37c] .card-header {
   background: transparent;
 }
@@ -618,7 +632,8 @@ h5 {
 .zombie-parts.shirt-visible-3 .shirt-part-3,
 .zombie-parts.shirt-visible-4 .shirt-part-4,
 .zombie-parts.shirt-visible-5 .shirt-part-5,
-.zombie-parts.shirt-visible-6 .shirt-part-6 {
+.zombie-parts.shirt-visible-6 .shirt-part-6,
+.zombie-parts.shirt-visible-7 .shirt-part-7 {
   display: inherit;
 }
 

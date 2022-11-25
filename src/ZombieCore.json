@@ -749,7 +749,42 @@
         },
         {
           "internalType": "uint32",
+          "name": "hp",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "str",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "def",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "agi",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
           "name": "readyTime",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "rarity",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "job",
+          "type": "uint32"
+        },
+        {
+          "internalType": "uint32",
+          "name": "char_number",
           "type": "uint32"
         }
       ],

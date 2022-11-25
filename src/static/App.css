@@ -138,7 +138,24 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 }
 
 .home-card{
-    background-image: url(./homecard@2x.png);
+    
+    background-image: url(./homecard@3x.png);
+    background-repeat: no-repeat;
+
+}
+.home-card2{
+    
+    background-image: url(./homecard@4x.png);
+    background-repeat: no-repeat;
+}
+.home-card3{
+    
+    background-image: url(./homecard@5x.png);
+    background-repeat: no-repeat;
+}
+.home-card4{
+    
+    background-image: url(./homecard@6x.png);
     background-repeat: no-repeat;
 }
 .game-card {

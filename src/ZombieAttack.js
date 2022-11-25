@@ -49,6 +49,7 @@ class NewZombie extends Component {
         MyWeb3.zombies(zombieId).then(function (result) {
             that.setState({targetZombie:result})
         })
+
     }
     getMyZombies(){
         let that = this
@@ -140,8 +141,9 @@ class NewZombie extends Component {
                                     var name = item.name
                                     var level = item.level
                                     return(
-                                        <div className="game-card home-card selectable" key={index} active={this.state.active[index] || 0} onClick={() => this.selectZombie(index)} >
+                                        <div className="game-card selectable" key={index} active={this.state.active[index] || 0} onClick={() => this.selectZombie(index)} >
                                             <div className="zombie-char">
+                                                
                                             <ZombiePreview zombie={item}></ZombiePreview>
                                                 <div className="zombie-card card bg-shaded">
                                                     <div className="card-header bg-dark hide-overflow-text">
