@@ -64,6 +64,7 @@ class App extends Component {
        
         return (
             <div>
+                
                 <button className="start-course-btn2" onClick={() =>this.Getter()}>
                 <span>{address_w}</span> wallet
                 
