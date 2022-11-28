@@ -14,7 +14,9 @@
 }
 .zombies-hero.no-webp {
     background-image: url(./index_bg.png);
+     background-size: 45% 60%;
 }
+
 .zombies-hero {
     background-repeat: no-repeat;
     background-position: center top;
@@ -88,18 +90,29 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     outline: none;
     font-family: soleil,sans-serif;
     font-size: 20px;
-    text-shadow: 0 2px 7px #000;
-    color: #fff;
-    padding: 40px 65px;
+    text-shadow: 0 2px 7px rgb(245, 183, 26);
+    color: rgb(255, 255, 255);
+    padding: 60px 10px;
+}
+.start-course-btn2 {
+    background: url(./button.cancel.png);
+    background-size: 100% 100%;
+    background-position:right top;
+    
+    font-family: soleil,sans-serif;
+    font-size: 20px;
+    text-shadow: 0 2px 7px rgb(245, 183, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
 }
 
 [type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: button;
 }
 #root{
-  background: url(./walls1.png);
-  background-size: cover;
-  background-position: 0%;
+  background: url(./walls2.png);
+  background-size: 100% 100%;
+  background-position: 100%;
 }
 .zombie-container {
     padding-top: 0px;
@@ -229,7 +242,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     flex-basis: 0px;
     flex-grow: 1;
     max-width: 100%;
-    margin-top: 20vh;
+    margin-top: -6.8vh;
 }
 .zombie-detail dl{
     display: inline-block;
@@ -369,7 +382,7 @@ button a,button a:hover{
     color: #fff;
     height: 66px;
     width: 210px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .pay-btn-last {
     margin-top: 0px;

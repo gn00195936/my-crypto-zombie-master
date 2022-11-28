@@ -124,9 +124,9 @@ class MyZombie extends Component {
                         </input>
                     </div>
                     <div>
-                        <button className="attack-btn" onClick={this.createZombie}>
+                        <button className="attack-btn" onClick={this.buyZombie}>
                             <span>
-                                免費角色    
+                                購買英雄 
                             </span>
                         </button>
                     </div>

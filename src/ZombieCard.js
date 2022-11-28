@@ -16,7 +16,7 @@ class ZombieCard extends Component {
         }
     }
     render() { 
-        console.log(this.state.zombie.rarity)
+        /*console.log(this.state.zombie.rarity)*/
         var rarity = this.state.zombie.rarity
         if (rarity==0){
         return ( 

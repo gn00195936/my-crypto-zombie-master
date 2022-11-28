@@ -28,16 +28,31 @@ class ZombieArmy extends Component {
     }
     zombieArmy(){
         let that = this
+        var rando 
+        var rando1 
+        var rando2 
+        var rando3 
         MyWeb3.zombieCount().then(function(result){
+         rando=Math.floor(Math.random()*result);
+         rando1=Math.floor(Math.random()*result);
+         rando2=Math.floor(Math.random()*result);
+         rando3=Math.floor(Math.random()*result);
+         const arr1 = [rando, rando1, rando2,rando3]; 
             if(result > 0){
                 for(let i=0;i<result;i++){
-                    MyWeb3.zombies(i).then(function (result) {
+                    MyWeb3.zombies(arr1[i]).then(function (result) {
                         let _zombies = that.state.zombies
-                        result.zombieId = i
+                        result.zombieId = arr1[i]
                         _zombies.push(result);
                         that.setState({zombies:_zombies})
                     })
                 }
+               
+                /*console.log('result='+result)
+                console.log('rando='+rando)
+                console.log('rando1='+rando1)
+                console.log('rando2='+rando2)
+                console.log('rando3='+rando3)*/
             }
         })
     }
@@ -49,6 +64,8 @@ class ZombieArmy extends Component {
     render() { 
         if(this.state.zombies.length>0) {
             return ( 
+
+                   
                 <div className="cards">
                     {this.state.zombies.map((item,index)=>{
                         var name = item.name
@@ -60,7 +77,10 @@ class ZombieArmy extends Component {
                         )
                     })}
                     <Route path="*" component={Page}></Route>
+
                 </div> 
+                 
+          
             )
         }else{
             return ( <div></div>)
