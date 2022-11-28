@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04769d8a922655845f8d5b0d1a7de71c",
+    "revision": "7819013d2768ccd01de585ea128f4ccd",
     "url": "/my-crypto-zombie-master/index.html"
   },
   {
-    "revision": "6f93185284ba2aa7c08d",
+    "revision": "eb4771eb7f36bf4e55fa",
     "url": "/my-crypto-zombie-master/static/css/main.c01e4ed0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-crypto-zombie-master/static/js/2.dada4117.chunk.js.LICENSE"
   },
   {
-    "revision": "6f93185284ba2aa7c08d",
-    "url": "/my-crypto-zombie-master/static/js/main.02abfd3c.chunk.js"
+    "revision": "eb4771eb7f36bf4e55fa",
+    "url": "/my-crypto-zombie-master/static/js/main.4bfb272c.chunk.js"
   },
   {
     "revision": "c7c2da0732bca2695231",
