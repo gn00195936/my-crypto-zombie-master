@@ -78,23 +78,39 @@
 .home-card .zombie-char {
   left: -6vh;
   top: -27vh;
-  transform: scale(0.4);
+  transform: scale(0.38);
+  font-family: soleil,sans-serif;
+  font-size: 30px;
+  text-shadow: 0 2px 7px #000;
+  color: rgb(42, 207, 0);
 }
 
 .home-card2 .zombie-char {
   left: -6vh;
   top: -27vh;
-  transform: scale(0.4);
+  transform: scale(0.38);
+  font-family: soleil,sans-serif;
+  font-size: 30px;
+  text-shadow: 0 2px 7px #000;
+  color: rgb(29, 162, 240);
 }
 .home-card3 .zombie-char {
   left: -6vh;
   top: -27vh;
-  transform: scale(0.4);
+  transform: scale(0.38);
+  font-family: soleil,sans-serif;
+  font-size: 30px;
+  text-shadow: 0 2px 7px #000;
+  color: rgb(254, 132, 1);
 }
 .home-card4 .zombie-char {
   left: -6vh;
   top: -27vh;
-  transform: scale(0.4);
+  transform: scale(0.38);
+  font-family: soleil,sans-serif;
+  font-size: 30px;
+  text-shadow: 0 2px 7px #000;
+  color: rgb(254, 1, 174);
 }
 .home-card5 .zombie-char {
   left: -6vh;
