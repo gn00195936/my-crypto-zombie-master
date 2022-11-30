@@ -187,30 +187,30 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 .home-card{
     
-    background-image: url(./homecard@3x.png);
+    background-image: url(./homecard@3x.webp);
     background-repeat: no-repeat;
 
 }
 .home-card2{
     
-    background-image: url(./homecard@4x.png);
+    background-image: url(./homecard@4x.webp);
     background-repeat: no-repeat;
 }
 .home-card3{
     
-    background-image: url(./homecard@5x.png);
+    background-image: url(./homecard@5x.webp);
     background-repeat: no-repeat;
  
 
 }
 .home-card4{
     
-    background-image: url(./homecard@6x.png);
+    background-image: url(./homecard@6x.webp);
     background-repeat: no-repeat;
 }
 .home-card5{
     
-    background-image: url(./homecard@7x.png);
+    background-image: url(./homecard@7x.webp);
     background-repeat: no-repeat;
 }
 .game-card {

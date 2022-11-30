@@ -21,7 +21,7 @@
 }
 
 .zombie-loading {
-  background: url(./walls1.gif) 0;
+  background: url(./walls2.png) 0;
   background-size: cover;
   height: 287px;
   width: 192px;
@@ -115,7 +115,11 @@
 .home-card5 .zombie-char {
   left: -6vh;
   top: -27vh;
-  transform: scale(0.4);
+  transform: scale(0.38);
+  font-family: soleil,sans-serif;
+  font-size: 30px;
+  text-shadow: 0 2px 7px rgb(240, 5, 5);
+  color: rgb(255, 255, 255);
 }
 .card[data-v-ab64d37c] .card-header {
   background: transparent;
