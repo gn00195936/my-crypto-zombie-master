@@ -14,7 +14,8 @@
 }
 .zombies-hero.no-webp {
     background-image: url(./index_bg.png);
-     background-size: 45% 60%;
+    background-size: 55% 70%;
+     
 }
 
 .zombies-hero {
@@ -100,12 +101,46 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     background-position:right top;
     
     font-family: soleil,sans-serif;
+    font-size: 15px;
+    text-shadow: 0 2px 7px rgb(245, 183, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+}
+.start-course-golde_ui {
+    background: url(./gold_ui.png);
+    background-size: 100% 100%;
+    background-position:right top;
+    border: none;
+    outline: none;
+    font-family: soleil,sans-serif;
+    font-size: 20px;
+    text-shadow: 0 5px 10px rgb(245, 183, 26);
+    color: rgb(255, 255, 255);
+    padding: 40px 125px;
+}
+.start-course-bnb_ui {
+    background: url(./bnb_ui.png);
+    background-size: 100% 100%;
+    background-position:right top;
+    border: none;
+    outline: none;
+    font-family: soleil,sans-serif;
+    font-size: 20px;
+    text-shadow: 0 5px 10px rgb(245, 183, 26);
+    color: rgb(255, 255, 255);
+    padding: 40px 125px;
+}
+.start-course-btn3 {
+    background: url(./character_view_edit_deck_button.disable.background.png);
+    background-size: 100% 100%;
+    background-position:right top;
+    
+    font-family: soleil,sans-serif;
     font-size: 20px;
     text-shadow: 0 2px 7px rgb(245, 183, 26);
     color: rgb(255, 255, 255);
     padding: 10px 10px;
 }
-
 [type=reset], [type=submit], button, html [type=button] {
     -webkit-appearance: button;
 }
@@ -152,30 +187,30 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 .home-card{
     
-    background-image: url(./homecard@3x.gif);
+    background-image: url(./homecard@3x.png);
     background-repeat: no-repeat;
 
 }
 .home-card2{
     
-    background-image: url(./homecard@4x.gif);
+    background-image: url(./homecard@4x.png);
     background-repeat: no-repeat;
 }
 .home-card3{
     
-    background-image: url(./homecard@5x.gif);
+    background-image: url(./homecard@5x.png);
     background-repeat: no-repeat;
  
 
 }
 .home-card4{
     
-    background-image: url(./homecard@6x.gif);
+    background-image: url(./homecard@6x.png);
     background-repeat: no-repeat;
 }
 .home-card5{
     
-    background-image: url(./homecard@7x.gif);
+    background-image: url(./homecard@7x.png);
     background-repeat: no-repeat;
 }
 .game-card {
@@ -289,6 +324,22 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     color: #fff;
     height: 77px;
     width: 528px;
+    margin-top: 50px;
+}
+.attack-btn2 {
+    cursor: pointer;
+    background: url(./start_btn2.png);
+    background-position: top;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: soleil,sans-serif;
+    font-size: 20px;
+    text-shadow: 0 2px 7px #000;
+    color: #fff;
+    height: 137px;
+    width: 150px;
     margin-top: 50px;
 }
 .attack-btn span{

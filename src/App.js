@@ -12,6 +12,9 @@ import {
   } from "react-router-dom"
 
 let address_w;
+let checkBalance;
+let checkBalance_value;
+let Hero_Gold;
 class App extends Component {
     constructor(props) {
         super(props);
@@ -42,38 +45,79 @@ class App extends Component {
       const web3 = new Web3(provider)
       console.log(web3)
       //定义合约地址
-      const address = "0xF1cd454c85f075618AfA353421859e54Fed01562"
+      const address = "0x7576c87D752dc0fb8e37E40c048C00a2F308027b"
       //实例化合约
       window.myContract = new web3.eth.Contract(abi.abi,address)
-      console.log(window.myContract)
+
       window.defaultAccount = accounts[0].toLowerCase()
       address_w=window.defaultAccount 
-      console.log("333++++"+address_w)
-
-      return(address_w);
+      
+      this.Hero_Gold()
+      this.checkBalance1()
+      console.log("checkBalance_value:"+checkBalance_value+"BNB")
+      this.Getter()
+      
      } 
     }
     Getter(){
 
         this.setState({value:address_w})
       }
+    Hero_Gold = () => {
+        window.myContract.methods.Hero_GoldToOwner(address_w).call().then(Hero_Gold=>{
+        Hero_Gold=(Hero_Gold/1000000000)/1000000000
+        console.log("Hero_Gold:"+Hero_Gold+"BNB")
+        this.setState({value1:Hero_Gold})
+        
+          
+        })
+    }
+    sell_Hero = () => {
+        window.myContract.methods.sell_Hero().send({from:window.defaultAccount})
+        this.setState({value1:Hero_Gold})
     
+      }
+    checkBalance1 = () => {
+      
+        window.myContract.methods.checkBalance().call().then(checkBalance=>{
+         
+        
+        checkBalance=(checkBalance/1000000000)/1000000000
+        console.log("checkBalance:"+checkBalance+"BNB")
+        this.setState({value2:checkBalance})
+        
+        })
+    }
     render() { 
         
         let AdminArea = this.state.AdminArea
        
         return (
+             
+      
+            
+      
+
+            
             <div>
                 
-                <button className="start-course-btn2" onClick={() =>this.Getter()}>
+                <button className="start-course-btn2" onClick={() =>this.Getter()}> 
                 <span>{address_w}</span> wallet
-                
                 </button>
-
-              
+           
+                <div>
+                <button className="start-course-golde_ui" onClick={() =>this.sell_Hero()}>{this.state.value1}    Gold </button>
+                </div>
+                <div>
+                <button className="start-course-bnb_ui">{this.state.value2} BNB </button>
+                </div>
+                <div className="start-course-btn3">
+                
+                </div>
+                
             <Fragment>
    
-              
+               
                 <Router>
                     
                     <section className="zombies-hero no-webp block app-block-intro pt-5 pb-0">

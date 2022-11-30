@@ -100,7 +100,7 @@ class MyZombie extends Component {
                             </input>
                         </div>
                         <div>
-                            <button className="attack-btn" onClick={this.buyZombie}>
+                            <button className="attack-btn2" onClick={this.buyZombie}>
                                 <span>
                                     購買英雄
                                 </span>
@@ -124,7 +124,7 @@ class MyZombie extends Component {
                         </input>
                     </div>
                     <div>
-                        <button className="attack-btn" onClick={this.buyZombie}>
+                        <button className="attack-btn2" onClick={this.buyZombie}>
                             <span>
                                 購買英雄 
                             </span>
