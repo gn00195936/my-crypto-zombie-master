@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-crypto-zombie-master/static/css/main.8fc5a808.chunk.css",
+    "main.css": "/my-crypto-zombie-master/static/css/main.f8f13b7f.chunk.css",
     "main.js": "/my-crypto-zombie-master/static/js/main.2af0b3a3.chunk.js",
     "main.js.map": "/my-crypto-zombie-master/static/js/main.2af0b3a3.chunk.js.map",
     "runtime-main.js": "/my-crypto-zombie-master/static/js/runtime-main.8ea3bef2.js",
@@ -8,17 +8,16 @@
     "static/js/2.dada4117.chunk.js": "/my-crypto-zombie-master/static/js/2.dada4117.chunk.js",
     "static/js/2.dada4117.chunk.js.map": "/my-crypto-zombie-master/static/js/2.dada4117.chunk.js.map",
     "index.html": "/my-crypto-zombie-master/index.html",
-    "precache-manifest.fc85e7456cc747d29fb7c3c46aa01cfc.js": "/my-crypto-zombie-master/precache-manifest.fc85e7456cc747d29fb7c3c46aa01cfc.js",
+    "precache-manifest.c757e5a5cdb1e977d530e16c961888cf.js": "/my-crypto-zombie-master/precache-manifest.c757e5a5cdb1e977d530e16c961888cf.js",
     "service-worker.js": "/my-crypto-zombie-master/service-worker.js",
-    "static/css/main.8fc5a808.chunk.css.map": "/my-crypto-zombie-master/static/css/main.8fc5a808.chunk.css.map",
+    "static/css/main.f8f13b7f.chunk.css.map": "/my-crypto-zombie-master/static/css/main.f8f13b7f.chunk.css.map",
     "static/js/2.dada4117.chunk.js.LICENSE": "/my-crypto-zombie-master/static/js/2.dada4117.chunk.js.LICENSE",
-    "static/media/App.css": "/my-crypto-zombie-master/static/media/walls2.757e0b31.png",
-    "static/media/ZombiePreview.css": "/my-crypto-zombie-master/static/media/walls1.8e665e8d.gif"
+    "static/media/App.css": "/my-crypto-zombie-master/static/media/walls2.757e0b31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ea3bef2.js",
     "static/js/2.dada4117.chunk.js",
-    "static/css/main.8fc5a808.chunk.css",
+    "static/css/main.f8f13b7f.chunk.css",
     "static/js/main.2af0b3a3.chunk.js"
   ]
 }
