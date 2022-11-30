@@ -45,7 +45,7 @@ class App extends Component {
       const web3 = new Web3(provider)
       console.log(web3)
       //定义合约地址
-      const address = "0x7576c87D752dc0fb8e37E40c048C00a2F308027b"
+      const address = "0x0d7A11b7737712791cD9630A5d6c86cdd4A39538"
       //实例化合约
       window.myContract = new web3.eth.Contract(abi.abi,address)
 
